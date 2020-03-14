@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 9000"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "latest",
+    "@next/mdx": "latest",
+    "@phobon/base": "latest",
+    "framer-motion": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "latest",
+    "styled-system": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-a11y": "latest",
+    "@storybook/addon-actions": "latest",
+    "@storybook/addon-knobs": "latest",
+    "@storybook/addons": "latest",
+    "@storybook/react": "latest",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "latest"
+  }
+}
