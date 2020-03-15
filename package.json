@@ -9,6 +9,7 @@
     "@mdx-js/loader": "latest",
     "@next/mdx": "latest",
     "@phobon/base": "latest",
+    "@phobon/grimoire": "^0.10.3",
     "framer-motion": "latest",
     "next": "latest",
     "react": "latest",
@@ -17,13 +18,13 @@
     "styled-system": "latest"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "latest",
     "@storybook/addon-a11y": "latest",
     "@storybook/addon-actions": "latest",
     "@storybook/addon-knobs": "latest",
     "@storybook/addons": "latest",
     "@storybook/react": "latest",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "latest",
     "babel-plugin-styled-components": "latest"
   }
 }
