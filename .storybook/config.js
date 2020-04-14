@@ -9,7 +9,12 @@ addDecorator(story => (
       style={{ fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif' }}
       justifyContent="flex-start"
       alignItems="flex-start"
-      fullWidth>
+      fullWidth
+      css={{
+        ul: {
+          paddingInlineStart: 0,
+        }
+      }}>
       {story()}
     </Box>
   </ThemeProvider>

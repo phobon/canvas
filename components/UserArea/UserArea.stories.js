@@ -9,9 +9,7 @@ export default {
 
 export const withUser = () => {
   const user = {
-    profile: {
-      name: 'Test User',
-    },
+    name: 'Test User',
   };
   return (
     <UserArea user={user} />

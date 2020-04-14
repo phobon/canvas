@@ -1,23 +1,17 @@
 import React from "react";
 import { Vector } from '@phobon/base';
 
-const Identity = ({ colour1, colour2, colour3, ...props }) => (
-  <Vector viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M16 0H0V16H16V0Z" fill="white"/>
-    <rect opacity="0.8" width="11" height="11" rx="2" transform="matrix(1 0 0 -1 0 11)" fill={colour1}/>
-    <rect opacity="0.8" width="11" height="11" rx="2" transform="matrix(1 0 0 -1 5 16)" fill={colour2}/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 5H7C5.89543 5 5 5.89543 5 7V11H9C10.1046 11 11 10.1046 11 9V5Z" fill={colour3}/>
+const Identity = props => (
+  <Vector viewBox="0 0 16 16" {...props}>
+    <path fillRule="evenodd" clipRule="evenodd" d="M0.5 0H5.5C5.77614 0 6 0.223858 6 0.5V1.5C6 1.77614 5.77614 2 5.5 2H2.5C2.22386 2 2 2.22386 2 2.5V5.5C2 5.77614 1.77614 6 1.5 6H0.5C0.223858 6 0 5.77614 0 5.5V0.5C0 0.223858 0.223858 0 0.5 0ZM0.5 16H5.5C5.77614 16 6 15.7761 6 15.5V14.5C6 14.2239 5.77614 14 5.5 14H2.5C2.22386 14 2 13.7761 2 13.5V10.5C2 10.2239 1.77614 10 1.5 10H0.5C0.223858 10 0 10.2239 0 10.5V15.5C0 15.7761 0.223858 16 0.5 16ZM10.5 0H15.5C15.7761 0 16 0.223858 16 0.5V5.5C16 5.77614 15.7761 6 15.5 6H14.5C14.2239 6 14 5.77614 14 5.5V2.5C14 2.22386 13.7761 2 13.5 2H10.5C10.2239 2 10 1.77614 10 1.5V0.5C10 0.223858 10.2239 0 10.5 0ZM15.5 16H10.5C10.2239 16 10 15.7761 10 15.5V14.5C10 14.2239 10.2239 14 10.5 14H13.5C13.7761 14 14 13.7761 14 13.5V10.5C14 10.2239 14.2239 10 14.5 10H15.5C15.7761 10 16 10.2239 16 10.5V15.5C16 15.7761 15.7761 16 15.5 16Z" />
   </Vector>
+  
 );
 
 Identity.defaultProps = {
-  width: 32,
-  height: 32,
-  // colour1: '#496075',
-  // colour2: '#C2F1DB',
-  colour1: '#FBC0BA',
-  colour2: '#A1B8D0',
-  colour3: '#89A6C4',
+  width: 16,
+  height: 16,
+  fill: 'accent.7',
 };
 
 export default Identity;

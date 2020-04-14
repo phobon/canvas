@@ -10,6 +10,7 @@ import Sunrise from './Sunrise';
 import Users from './Users';
 import CollapseSidebar from './CollapseSidebar';
 import ExpandSidebar from './ExpandSidebar';
+import HierarchyFiles from './HierarchyFiles';
 
 export default {
   title: 'Icons',
@@ -25,5 +26,6 @@ export const withAllIcons = () => (
     <Users />
     <ExpandSidebar />
     <CollapseSidebar />
+    <HierarchyFiles />
   </Stack>
 );
