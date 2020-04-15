@@ -1,6 +1,6 @@
 # Canvas
 
-A very simple NextJS template with MDX support
+Note taking for healthcare professionals built using a JAMstack
 
 ## Stack
 
@@ -11,3 +11,4 @@ Built using my favourite stack to build stuff these days:
 - [Styled System](https://styled-system.com/)
 - [MDX](https://mdxjs.com/)
 - [Storybook](https://storybook.js.org/) for isolated component development as required
+- Still deciding on whether to use something like FaunaDB with GraphQL
