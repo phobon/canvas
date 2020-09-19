@@ -2,7 +2,7 @@ import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@phobon/base';
+import { theme } from '@phobon/tokens';
 
 import { MDXProvider } from '@mdx-js/react';
 

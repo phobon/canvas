@@ -1322,6 +1322,16 @@
   resolved "https://registry.yarnpkg.com/@phobon/grimoire/-/grimoire-0.12.14.tgz#a2992899a7126e3a7553a0ae7376792452e5010c"
   integrity sha512-iivkOwGolTs248k3GpIoJWC2vZkYPEgzvlkMg9FU6DcBqOk6gcfr+683m854cnoCdfcewGVLjcOv0oz1CtDAXg==
 
+"@phobon/hooks@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@phobon/hooks/-/hooks-2.0.8.tgz#e5ceefc5fe5c5d3a25b8082cb3b4265a8dad1880"
+  integrity sha512-47EZYBu0bV+hx74OFJ0wPgBfQvXbIsuyjabM2y9NuM6Utyg4TiVUgJx+LbGjwUOegoofIzUB/1PRfDgeMRWS2A==
+
+"@phobon/tokens@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@phobon/tokens/-/tokens-1.0.5.tgz#944225d162c703b9f7222987e0ac8bb1cd167248"
+  integrity sha512-4u86JfW6tAPPJ81hrllboHLipdC7UL+jAwYMssigbZAzxbgTUX/xQUIeK4rLMMyf2OWHMipSaMASz47zBN7p5w==
+
 "@reach/router@^1.3.3":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
@@ -4907,6 +4917,11 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+fast-deep-equal@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
 
 fast-deep-equal@^3.1.1:
   version "3.1.3"
@@ -9180,6 +9195,13 @@ svgo@^1.2.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swr@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-0.3.2.tgz#1197e06553f71afbc42dba758459f12daea96805"
+  integrity sha512-Bs5Bihq1hQ66O5bdKaL47iZ2nlAaBsd8tTLRLkw9stZeuBEfH7zSuQI95S2TpchL0ybsMq3isWwuso2uPvCfHA==
+  dependencies:
+    fast-deep-equal "2.0.1"
 
 symbol.prototype.description@^1.0.0:
   version "1.0.2"
