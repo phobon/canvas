@@ -6,27 +6,27 @@
     "storybook": "start-storybook -p 9000"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.5.8",
-    "@next/mdx": "^9.3.4",
-    "@phobon/base": "^2.4.0",
-    "@phobon/grimoire": "^0.12.0",
+    "@mdx-js/loader": "^1.6.18",
+    "@next/mdx": "^9.5.3",
+    "@phobon/base": "^3.0.8",
+    "@phobon/grimoire": "^0.12.14",
     "@styled-system/should-forward-prop": "^5.1.5",
-    "dayjs": "^1.8.24",
-    "framer-motion": "^2.0.0-beta.42",
-    "next": "^9.3.4",
+    "dayjs": "^1.8.36",
+    "framer-motion": "^2.6.15",
+    "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.1.0",
+    "styled-components": "^5.2.0",
     "styled-system": "^5.1.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@storybook/addon-a11y": "^5.3.18",
-    "@storybook/addon-actions": "^5.3.18",
-    "@storybook/addon-knobs": "^5.3.18",
-    "@storybook/addons": "^5.3.18",
-    "@storybook/react": "^5.3.18",
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-a11y": "^6.0.21",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-knobs": "^6.0.21",
+    "@storybook/addons": "^6.0.21",
+    "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.10.7"
+    "babel-plugin-styled-components": "^1.11.1"
   }
 }
